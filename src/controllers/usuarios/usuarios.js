@@ -1,5 +1,5 @@
-const response = require('./response');
-const Usuarios = require('../repositories/usuarios');
+const response = require('../response');
+const Usuarios = require('../../repositories/usuarios');
 
 const obterUsuario = async (ctx) => {
 	const { id = null } = ctx.params;
